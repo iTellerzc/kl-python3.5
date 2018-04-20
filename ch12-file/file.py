@@ -2,5 +2,5 @@
 #-*-coding:UTF-8-*-
 
 path = './test.txt'
-f_name = open(path, 'w')
-print(f_name.name)
+f_name = open(path, 'r')
+print(f_name.read())
